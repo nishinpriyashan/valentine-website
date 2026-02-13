@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating hearts background animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Falling rose petals -->
+    <div class="petals-container" id="petalsContainer"></div>
+
+    <!-- Main content card -->
+    <div class="valentine-card">
+        <!-- Decorative elements -->
+        <div class="glow-orb glow-orb-1"></div>
+        <div class="glow-orb glow-orb-2"></div>
+        
+        <!-- Card content -->
+        <div class="card-content">
+            <div class="heart-icon">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50,90 C50,90 10,65 10,40 C10,25 20,15 32.5,15 C42.5,15 50,22.5 50,22.5 C50,22.5 57.5,15 67.5,15 C80,15 90,25 90,40 C90,65 50,90 50,90 Z" 
+                          fill="currentColor" 
+                          class="heart-path"/>
+                </svg>
+            </div>
+            
+            <h1 class="main-heading">
+                <span class="heading-line">Happy Valentine's</span>
+                <span class="heading-line heading-day">Day</span>
+            </h1>
+            
+            <p class="love-quote">
+                "In all the world, there is no heart for me like yours.<br>
+                In all the world, there is no love for you like mine."
+            </p>
+            
+            <p class="quote-author">— Nish & Situj —</p>
+            
+            <button class="love-button" id="loveButton">
+                <span class="button-text">My Love</span>
+                <span class="button-icon">💕</span>
+            </button>
+            
+            <!-- Music toggle button -->
+            <button class="music-toggle" id="musicToggle" aria-label="Toggle music">
+                <span class="music-icon">🎵</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Photo Gallery Section -->
+    <div class="photo-gallery-section">
+        <div class="gallery-header">
+            <h2 class="gallery-title">Our Precious Moments 💖</h2>
+            <p class="gallery-subtitle">Every picture tells our love story</p>
+        </div>
+        
+        <div class="photo-gallery" id="photoGallery">
+            <!-- Photo 1 -->
+            <div class="photo-item" data-index="0">
+                <div class="photo-frame">
+                    <img src="photos/one.jpeg" alt="Valentine Memory 1" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">❤️</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 2 -->
+            <div class="photo-item" data-index="1">
+                <div class="photo-frame">
+                    <img src="photos/two.jpeg" alt="Valentine Memory 2" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💕</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 3 -->
+            <div class="photo-item" data-index="2">
+                <div class="photo-frame">
+                    <img src="photos/three.jpeg" alt="Valentine Memory 3" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💖</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 4 -->
+            <div class="photo-item" data-index="3">
+                <div class="photo-frame">
+                    <img src="photos/four.jpeg" alt="Valentine Memory 4" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💗</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 5 -->
+            <div class="photo-item" data-index="4">
+                <div class="photo-frame">
+                    <img src="photos/five.jpeg" alt="Valentine Memory 5" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💝</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 6 -->
+            <div class="photo-item" data-index="5">
+                <div class="photo-frame">
+                    <img src="photos/six.jpeg" alt="Valentine Memory 6" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💓</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 7 -->
+            <div class="photo-item" data-index="6">
+                <div class="photo-frame">
+                    <img src="photos/seven.jpeg" alt="Valentine Memory 7" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💞</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 8 -->
+            <div class="photo-item" data-index="7">
+                <div class="photo-frame">
+                    <img src="photos/eight.jpeg" alt="Valentine Memory 8" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💘</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 9 -->
+            <div class="photo-item" data-index="8">
+                <div class="photo-frame">
+                    <img src="photos/nine.jpeg" alt="Valentine Memory 9" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">❣️</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Photo 10 -->
+            <div class="photo-item" data-index="9">
+                <div class="photo-frame">
+                    <img src="photos/ten.jpeg" alt="Valentine Memory 10" class="gallery-photo">
+                    <div class="photo-overlay">
+                        <span class="photo-heart">💌</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Gallery Navigation -->
+        <button class="gallery-nav gallery-prev" id="galleryPrev" aria-label="Previous photo">
+            <span>←</span>
+        </button>
+        <button class="gallery-nav gallery-next" id="galleryNext" aria-label="Next photo">
+            <span>→</span>
+        </button>
+        
+        <!-- Gallery Indicators -->
+        <div class="gallery-indicators" id="galleryIndicators"></div>
+    </div>
+
+    <!-- Heart explosion container -->
+    <div class="explosion-container" id="explosionContainer"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop preload="auto">
+        <!-- Replace with your actual music file path -->
+        <source src="music/my.mp3" type="audio/mpeg">
+        <source src="music/romantic-song.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
